@@ -1,0 +1,10 @@
+venv/
+.venv/
+__pycache__/
+imgs/
+out/
+cache/
+registry.json
+.env
+*.key
+node_modules/

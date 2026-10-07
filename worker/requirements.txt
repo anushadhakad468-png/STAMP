@@ -1,0 +1,6 @@
+trustmark
+imagehash
+pillow
+numpy
+invisible-watermark
+opencv-python
