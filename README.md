@@ -54,6 +54,7 @@ sequenceDiagram
 - [x] **Watermark + pHash Core Spike:** Completed (`worker/stampcore.py`)
 - [x] **Agent Identity Registry (ERC-8004):** Completed (`contracts/src/AgentRegistry.sol`)
 - [x] **Provenance Registry Contract:** Completed (`contracts/src/ProvenanceRegistry.sol`)
+- [x] **JobEscrow Payment System:** Completed (`contracts/src/JobEscrow.sol`)
 - [ ] **JobEscrow Payment System:** In Progress
 - [ ] **Envio Indexer & Gateway Connection:** Next
 - [ ] **Verify Page UI & Browser Login:** Next
