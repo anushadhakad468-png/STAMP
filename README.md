@@ -50,9 +50,14 @@ sequenceDiagram
 - False positives on never-stamped images: 0/30.
 
 ## Status
-- Watermark + pHash spike: done (worker/stampcore.py has stamp_image() and verify_image())
-- ProvenanceRegistry contract: in progress
-- Envio indexer, gateway, Verify page, Privy login: next
+## Status
+- [x] **Watermark + pHash Core Spike:** Completed (`worker/stampcore.py`)
+- [x] **Agent Identity Registry (ERC-8004):** Completed (`contracts/src/AgentRegistry.sol`)
+- [x] **Provenance Registry Contract:** Completed (`contracts/src/ProvenanceRegistry.sol`)
+- [ ] **JobEscrow Payment System:** In Progress
+- [ ] **Envio Indexer & Gateway Connection:** Next
+- [ ] **Verify Page UI & Browser Login:** Next
+
 
 ## Run the worker
 <<<<<<< HEAD
