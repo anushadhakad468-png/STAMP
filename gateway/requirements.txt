@@ -1,0 +1,11 @@
+fastapi
+uvicorn
+python-multipart
+web3
+pillow
+python-dotenv
+imagehash
+trustmark
+invisible-watermark
+opencv-python
+numpy

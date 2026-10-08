@@ -50,21 +50,16 @@ sequenceDiagram
 - False positives on never-stamped images: 0/30.
 
 ## Status
-## Status
 - [x] **Watermark + pHash Core Spike:** Completed (`worker/stampcore.py`)
 - [x] **Agent Identity Registry (ERC-8004):** Completed (`contracts/src/AgentRegistry.sol`)
 - [x] **Provenance Registry Contract:** Completed (`contracts/src/ProvenanceRegistry.sol`)
 - [x] **JobEscrow Payment System:** Completed (`contracts/src/JobEscrow.sol`)
-- [ ] **Envio Indexer & Gateway Connection:** Next
-- [ ] **Verify Page UI & Browser Login:** Next
+- [x] **Envio Indexer & Gateway Connection:** Completed
+- [x] **Verify Page UI & Browser Login:** Completed
 
 
 ## Run the worker
-<<<<<<< HEAD
-Python 3.10. On Windows run this first in PowerShell: $env:PYTHONUTF8="1"
-Then: pip install -r worker/requirements.txt
-Put test images in imgs/ (not committed), then: python worker/spike2.py
-=======
+
 Python 3.10. On Windows run this first in PowerShell: `$env:PYTHONUTF8="1"`
 Then: `pip install -r worker/requirements.txt`
 Put test images in imgs/ (not committed), then: `python worker/spike2.py`
@@ -72,4 +67,3 @@ Put test images in imgs/ (not committed), then: `python worker/spike2.py`
 ## Bounties Claimed
 * **Monad Track 04 (Trust, Identity & AI):** Core submission. Solves agent identity (ERC-8004) and provenance that survives re-encoding.
 * **Best Use of Envio:** HyperIndex watches the `ProvenanceRegistry` and indexes pHash bands for zero-gas similarity lookups via GraphQL.
->>>>>>> 2fefceb643d79d2919059ec164a13de984a9ff95

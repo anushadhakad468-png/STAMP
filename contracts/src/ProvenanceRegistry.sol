@@ -31,6 +31,10 @@ contract ProvenanceRegistry {
         string band1,
         string band2,
         string band3,
+        string band4,
+        string band5,
+        string band6,
+        string band7,
         string model,
         address indexed agent,
         address indexed creator,
@@ -51,7 +55,6 @@ contract ProvenanceRegistry {
         authorizedGateways[_gateway] = true;
     }
 
-    // The core function your backend will call when an image is generated
     function attest(
         string calldata id,
         string calldata contentHash,
@@ -59,6 +62,10 @@ contract ProvenanceRegistry {
         string calldata band1,
         string calldata band2,
         string calldata band3,
+        string calldata band4,
+        string calldata band5,
+        string calldata band6,
+        string calldata band7,
         string calldata model,
         address agent,
         address creator
@@ -76,6 +83,6 @@ contract ProvenanceRegistry {
             revoked: false
         });
 
-        emit Stamped(id, contentHash, band0, band1, band2, band3, model, agent, creator, StampKind.ATTESTED);
+        emit Stamped(id, contentHash, band0, band1, band2, band3, band4, band5, band6, band7, model, agent, creator, StampKind.ATTESTED);
     }
 }

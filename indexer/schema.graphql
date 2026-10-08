@@ -1,0 +1,20 @@
+type ProvenanceRegistry_Stamped {
+  id: ID!
+  stampId: String!
+  contentHash: String!
+  model: String!
+  agent: String!
+  creator: String!
+  kind: String!
+  timestamp: Int!
+  band0: String!
+  band1: String!
+  band2: String!
+  band3: String!
+  band4: String!
+  band5: String!
+  band6: String!
+  band7: String!
+  txHash: String!
+  blockNumber: Int!
+}
